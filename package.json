@@ -1,0 +1,22 @@
+{
+    "name": "my-material",
+    "displayName": "my-material",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "material-lred",
+    "engines": {
+        "vscode": "^1.21.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "material-lred",
+                "uiTheme": "vs-dark",
+                "path": "./themes/material-lred-color-theme.json"
+            }
+        ]
+    }
+}
